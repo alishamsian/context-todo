@@ -1,0 +1,33 @@
+.TaskItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+.TaskItem button{
+    font-size: 1rem;
+    border: 1px solid #E74C3C;
+    background-color: #E74C3C;
+    padding: 10px 10px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.TaskItem button:hover{
+    background-color: #da3321;
+    color: #fff;
+    transition-duration: 300ms;
+}
